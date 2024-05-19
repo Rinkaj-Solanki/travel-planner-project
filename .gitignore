@@ -1,0 +1,79 @@
+# Help and target directories
+HELP.md
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Maven Wrapper files
+!.mvn/wrapper/maven-wrapper.jar
+
+# STS (Spring Tool Suite) specific files
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA specific files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+
+# Visual Studio Code specific files
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+*.tmp
+
+# Compiled class files
+*.class
+
+# Generated JARs
+*.jar
+
+# Generated WARs
+*.war
+
+# Generated EARs
+*.ear
+
+# Database files
+*.h2.db
+*.mv.db
+*.sqlite
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Application-specific files
+*.properties
+*.yml
+*.yaml
+
+# IntelliJ IDEA specific files
+/out/
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Maven specific files
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.log
+*.log.*
+
+
+
+# Windows specific files
+Thumbs.db
